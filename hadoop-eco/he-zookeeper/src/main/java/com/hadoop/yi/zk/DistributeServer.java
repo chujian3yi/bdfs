@@ -15,7 +15,7 @@ public class DistributeServer {
      */
     public static String connectString = "192.168.12.151:2181" +
             ",192.168.12.152:2181" +
-            ",192.168.12.153";
+            ",192.168.12.153:2181";
     public static int sessionTimeout = 2000;
     private ZooKeeper zkClient = null;
 

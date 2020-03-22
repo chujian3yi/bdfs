@@ -12,3 +12,6 @@
 
 2. hadoop-eco项目，完成he-zookeeper子项目
 
+#### 2020-03-22：
+
+1. Apache Zookeeper 缓冲区溢出漏洞,修改pom.xml zookeep依赖版本为3.5.5                       
