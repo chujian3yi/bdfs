@@ -15,6 +15,7 @@
         <module>he-mapreduce</module>
         <module>he-hive-udf</module>
         <module>he-hive-gl</module>
+        <module>he-flume</module>
     </modules>
 
     <!--  定义我们的cdh的jar包去哪里下载 -->
