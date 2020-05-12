@@ -23,3 +23,8 @@
 ### 2020-04-17
 1. hadoop-eco项目，完成he-mapreduce
 
+### 2020-05-12
+1. hadoop-eco项目，完成he-hive
+2. hadoop-eco项目，完成he-item-gl
+
+
