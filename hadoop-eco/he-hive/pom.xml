@@ -12,18 +12,61 @@
     <artifactId>he-hive</artifactId>
 
     <!--  定义我们的cdh的jar包去哪里下载 -->
-    <repositories>
-        <repository>
-            <id>cloudera</id>
-            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
-        </repository>
-    </repositories>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-exec</artifactId>
             <version>1.2.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.hive.shims/hive-shims-common -->
+        <dependency>
+            <groupId>org.apache.hive.shims</groupId>
+            <artifactId>hive-shims-common</artifactId>
+            <version>1.1.0-cdh5.14.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.hive.shims/hive-shims-common-secure -->
+        <dependency>
+            <groupId>org.apache.hive.shims</groupId>
+            <artifactId>hive-shims-common-secure</artifactId>
+            <version>0.12.0-cdh5.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-shims -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-shims</artifactId>
+            <version>1.1.0-cdh5.14.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.hive.shims/hive-shims-scheduler -->
+        <dependency>
+            <groupId>org.apache.hive.shims</groupId>
+            <artifactId>hive-shims-scheduler</artifactId>
+            <version>1.1.0-cdh5.14.0</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>1.1.0-cdh5.14.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.6.5</version>
         </dependency>
     </dependencies>
 </project>
