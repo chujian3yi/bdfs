@@ -31,3 +31,4 @@
 1. 初始化 spark-eco
 2. spark-eco项目，完成spark-base
 3. pom.xml spark-core_2.11 version 2.1.1 -> 2.1.2
+3. pom.xml spark-core_2.11 version  2.1.2 -> 2.4.0
